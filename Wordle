@@ -1,6 +1,7 @@
+import random
 def get_answer_word():
   # Read the input file of 5-letter words.
-  file = open("words.txt", "r")
+  file = open("words(1).txt", "r")
   words = [word.strip() for word in file.readlines()]
 
   # Set the answer word to be a random one!
